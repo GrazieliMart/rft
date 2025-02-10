@@ -367,6 +367,8 @@ document.addEventListener('click', function (event) {
             <div class="about" style="background-color: var(--shape-color-01);">
                 <h2>Contact Us</h2>
                 <form name="eventForm" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="eventForm">
+                
                     <!-- Nome -->
                     <div class="mb-3">
                         <label for="name" class="form-label"></label>
@@ -465,6 +467,7 @@ document.addEventListener('click', function (event) {
                     <!-- Botão -->
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                
                 
                 
                 <div class="tittle-div">
