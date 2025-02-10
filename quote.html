@@ -379,18 +379,11 @@ document.addEventListener('click', function (event) {
                         <input type="email" class="form-control" id="email" name="email" required placeholder="Your Email">
                     </div>
                     
+                    <!-- Telefone -->
                     <div class="mb-3">
                         <label for="phone" class="form-label"></label>
-                        <input 
-                            type="tel" 
-                            class="form-control" 
-                            id="phone" 
-                            name="phone" 
-                            placeholder="Phone Number" 
-                            maxlength="16"
-                            required>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" maxlength="16" required>
                     </div>
-                    
                     
                     <!-- Tipo de Evento -->
                     <div class="mb-3">
@@ -401,16 +394,7 @@ document.addEventListener('click', function (event) {
                     <!-- Código Postal -->
                     <div class="mb-3">
                         <label for="postCode" class="form-label"></label>
-                        <input 
-                            type="text" 
-                            class="form-control" 
-                            id="postCode" 
-                            name="postCode"
-                            placeholder="Post Code" 
-                          
-                            maxlength="7" 
-                            title="Enter a valid Irish postcode, e.g., D01 R2T2" 
-                            required>
+                        <input type="text" class="form-control" id="postCode" name="postCode" placeholder="Post Code" maxlength="7" title="Enter a valid Irish postcode, e.g., D01 R2T2" required>
                         <div class="invalid-feedback">
                             Please enter a valid Irish postcode, e.g., D01 R2T2.
                         </div>
@@ -451,21 +435,21 @@ document.addEventListener('click', function (event) {
                         <div style="display: flex;">
                             <div style="margin-right: 50px;">
                                 <div>
-                                    <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
+                                    <input type="checkbox" id="trailer2m" name="productInterest_2m" value="2m Trailer">
                                     <label for="trailer2m">2m Trailer</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
+                                    <input type="checkbox" id="trailer3m" name="productInterest_3m" value="3m Trailer">
                                     <label for="trailer3m">3m Trailer</label>
                                 </div>
                             </div>
                             <div>
                                 <div>
-                                    <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
+                                    <input type="checkbox" id="trailer4m" name="productInterest_4m" value="4m Trailer">
                                     <label for="trailer4m">4m Trailer</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="other" name="productInterest" value="Other">
+                                    <input type="checkbox" id="other" name="productInterest_other" value="Other">
                                     <label for="other">Other</label>
                                 </div>
                             </div>
@@ -478,10 +462,10 @@ document.addEventListener('click', function (event) {
                         <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
                     </div>
                 
-
                     <!-- Botão -->
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                
                 
                 <div class="tittle-div">
                     <p>

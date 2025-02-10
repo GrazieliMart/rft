@@ -595,6 +595,8 @@ setInterval(changeImage, 3000);
             <div class="about" style="background-color: var(--shape-color-01);">
                 <h2>Contact Us</h2>
                 <form name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    
                     <div class="mb-3">
                         <label for="name" class="form-label"></label>
                         <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
@@ -634,21 +636,21 @@ setInterval(changeImage, 3000);
                         <div style="display: flex;">
                             <div style="margin-right: 50px;">
                                 <div>
-                                    <input type="checkbox" id="trailer2m" name="productInterest_2m" value="2m Trailer">
+                                    <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
                                     <label for="trailer2m">2m Trailer</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="trailer3m" name="productInterest_3m" value="3m Trailer">
+                                    <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
                                     <label for="trailer3m">3m Trailer</label>
                                 </div>
                             </div>
                             <div>
                                 <div>
-                                    <input type="checkbox" id="trailer4m" name="productInterest_4m" value="4m Trailer">
+                                    <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
                                     <label for="trailer4m">4m Trailer</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="other" name="productInterest_other" value="Other">
+                                    <input type="checkbox" id="other" name="productInterest" value="Other">
                                     <label for="other">Other</label>
                                 </div>
                             </div>
@@ -662,6 +664,7 @@ setInterval(changeImage, 3000);
                 
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                
 
                 <div class="tittle-div">
                     <p>If you need any further information please contact us or give us a ring as we will be happy to give any further advice you may need.
