@@ -100,9 +100,9 @@
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                             <li><img src="assets/trailer1.png" alt=""></li>
                             <li><a class="dropdown-item" href="products.html">Products</a></li>
-                            <li><a class="dropdown-item" href="2m-trailer.html">2m Trailer</a></li>
-                            <li><a class="dropdown-item" href="3m-trailer.html">3m Trailer</a></li>
-                            <li><a class="dropdown-item" href="4m-trailer.html">4m Trailer</a></li>
+                            <li><a class="dropdown-item" href="2m-trailer.html">Small</a></li>
+                            <li><a class="dropdown-item" href="3m-trailer.html">Medium</a></li>
+                            <li><a class="dropdown-item" href="4m-trailer.html">Large</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -306,10 +306,7 @@ document.addEventListener('click', function (event) {
 
    
     <div id="hero">
-        <video autoplay muted loop playsinline>
-            <source src="assets/back.webm" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+       <img src="assets/back.png" alt="">
         <div class="overlay"></div>
         <div class="content">
             <h3>We handle all delivery & set up</h3>
@@ -358,22 +355,22 @@ document.addEventListener('click', function (event) {
         <section id="services" class="mt-5">
             <div class="titlle-div">
             <h2>Our Services</h2>
-        <p>Rent a Fridge Trailer offers three sizes available: 2m, 3m (double or single doors) and 4m unit.</p></div>
+        <p>Rent a fridge trailer offers 3 sizes - small, medium and large(double or single door).</p></div>
             <div class="row" data-aos="zoom-in">
                 <div class="col-md-4"  data-aos="fade-right">
                     <a href="2m-trailer.html" style="text-decoration: none;"  > <img src="assets/trailer1.png" alt=""></a>
-                    <h3>2m Trailer</h3>
-                    <p>The door aperture is 750mm wide by 1.74m high. Gross weight: 2000kg, Payload: 1200kg.</p>
+                    <h3>Small</h3>
+                    <p>Small - 3m x 1.5m door Aperture 1.5m - max load weight 1500kg.</p>
                 </div>
                 <div class="col-md-4">
                     <a href="3m-trailer.html" style="text-decoration: none;"><img src="assets/trailer2.png" alt=""></a>
-                    <h3>3m Trailer</h3>
-                    <p>The door aperture comes in two options: Single 800mm wide x 1900mm high or Double 1600mm wide x 1820mm high. Gross weight: 3500kg, Payload: 2400kg.</p>
+                    <h3>Medium</h3>
+                    <p>3m x 1.7m door aperture 80cm - max load weight - 2000kg.</p>
                 </div>
                 <div class="col-md-4">
                     <a href="4m-trailer.html" style="text-decoration: none;"> <img src="assets/trailer3.png" alt=""></a>
-                    <h3>4m Trailer</h3>
-                    <p>The door aperture is 800mm wide by 1900mm high. Gross weight: 3500kg, Payload: 2500kg.</p>
+                    <h3>Large</h3>
+                    <p>3.5m x 1.75m door aperture 1.75m max load weight - 2200kg.</p>
                 </div>
                 <div class="titlle-div">
                     <a href="products.html" style="text-decoration: none;"><button class="btn btn-primary square-btn me-2">Trailers Details</button></a>
@@ -395,10 +392,7 @@ document.addEventListener('click', function (event) {
             </blockquote>
         </section>-->
         <div id="hero">
-            <video autoplay muted loop playsinline>
-                <source src="assets/back.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
+          <img src="assets/parallax-2.png" alt="">
        
         </div>
 
@@ -630,17 +624,12 @@ document.addEventListener('click', function (event) {
                             maxlength="16"
                             required>
                     </div>
-                    
                     <div class="mb-3">
-                        <label for="province" class="form-label">Select a Province</label>
-                        <select class="form-control" id="province" name="province" required>
-                            <option value="" selected disabled>Select a Province</option>
-                            <option value="Leinster">Leinster</option>
-                            <option value="Munster">Munster</option>
-                            <option value="Connacht">Connacht</option>
-                            <option value="Ulster">Ulster</option>
-                        </select>
+                        <label for="country" class="form-label">Your country</label>
+                        <input type="text" class="form-control" id="country" country="country" required placeholder="Your Country">
                     </div>
+                    
+                  
                     
                     <div class="mb-3">
                         <br>
@@ -649,17 +638,17 @@ document.addEventListener('click', function (event) {
                             <div style="margin-right: 50px;">
                                 <div>
                                     <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
-                                    <label for="trailer2m">2m Trailer</label>
+                                    <label for="trailer2m">Small Trailer</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
-                                    <label for="trailer3m">3m Trailer</label>
+                                    <label for="trailer3m">Medium Trailer</label>
                                 </div>
                             </div>
                             <div>
                                 <div>
                                     <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
-                                    <label for="trailer4m">4m Trailer</label>
+                                    <label for="trailer4m">Large Trailer</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="other" name="productInterest" value="Other">

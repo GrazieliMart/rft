@@ -299,9 +299,9 @@ margin-top: 40px;}
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                             <li><img src="assets/trailer1.png" alt=""></li>
                             <li><a class="dropdown-item" href="products.html">Products</a></li>
-                            <li><a class="dropdown-item" href="2m-trailer.html">2m Trailer</a></li>
-                            <li><a class="dropdown-item" href="3m-trailer.html">3m Trailer</a></li>
-                            <li><a class="dropdown-item" href="4m-trailer.html">4m Trailer</a></li>
+                            <li><a class="dropdown-item" href="2m-trailer.html">Small</a></li>
+                            <li><a class="dropdown-item" href="3m-trailer.html">Medium</a></li>
+                            <li><a class="dropdown-item" href="4m-trailer.html">Large</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -507,7 +507,7 @@ document.addEventListener('click', function (event) {
         <section id="services" class="mt-5">
             <div class="titlle-div">
             <h2>
-             2m Trailer <a href="3m-trailer.html"><i class="bi bi-caret-right-fill"></i></a></h2>
+             Small <a href="3m-trailer.html"><i class="bi bi-caret-right-fill"></i></a></h2>
        </div>
          
         </section>
@@ -517,14 +517,12 @@ document.addEventListener('click', function (event) {
    <section id="faq" class="mt-5" data-aos="fade-up">
     <div class="about" id="about2">
         <div class="about-text">
-            <h2>2m Refrigerated Trailer</h2>
-            <p>The 2-meter trailer is a compact and efficient option for refrigerated and frozen storage. <br><br> It is ideal for small events, restaurants, and businesses needing temporary additional storage. </p>
-            <strong>Internal Dimensions:</strong> 2.5m (L) x 1.5m (W) x 2m (H) <br>
-            <strong>Cubic Capacity:</strong> 7.25 m³ <br>
-            <strong>Door Opening:</strong> 750mm (W) x 1.74m (H) <br>
-            <strong>Gross Weight:</strong> 2000 kg <br>
-            <strong>Payload Capacity:</strong> 1200 kg <br>
-            <br><br>
+            <h2>Small Refrigerated Trailer</h2>
+            <p>The 3-meter trailer is a compact and efficient option for refrigerated and frozen storage. <br><br> It is ideal for small events, restaurants, and businesses needing temporary additional storage.</p>
+            <strong>Internal Dimensions:</strong> 3m (L) x 1.5m (W) <br>
+            <strong>Door Opening:</strong> 1.5m (W) <br>
+            <strong>Max Load Weight:</strong> 1500 kg <br>
+            <br><br>            
             <a href="#contact" style="text-decoration: none;">
                 <button class="btn btn-primary square-btn me-2">Rent Trailer</button>
             </a>  </div>
@@ -557,7 +555,7 @@ document.addEventListener('click', function (event) {
     <section class="about">
         <div class="about text-left">
             <h2>Compact, Efficient, and Flexible 2m Refrigerated Trailer</h2>
-            <p>The 2m refrigerated trailer is a reliable and versatile storage solution, offering both compact size and high efficiency. With a temperature range of +4°C to -22°C, it meets the needs of both refrigeration and deep freezing. Perfect for small businesses, catering services, and events, this trailer provides secure and easy transport for perishable goods, all while ensuring top-notch performance and flexibility in various settings.</p>
+            <p>The refrigerated trailer is a reliable and versatile storage solution, offering both compact size and high efficiency. With a temperature range of +4°C to -22°C, it meets the needs of both refrigeration and deep freezing. Perfect for small businesses, catering services, and events, this trailer provides secure and easy transport for perishable goods, all while ensuring top-notch performance and flexibility in various settings.</p>
         </div>
     </section>  
     <script>
@@ -637,17 +635,12 @@ document.addEventListener('click', function (event) {
                             maxlength="16"
                             required>
                     </div>
-                    
                     <div class="mb-3">
-                        <label for="province" class="form-label">Select a Province</label>
-                        <select class="form-control" id="province" name="province" required>
-                            <option value="" selected disabled>Select a Province</option>
-                            <option value="Leinster">Leinster</option>
-                            <option value="Munster">Munster</option>
-                            <option value="Connacht">Connacht</option>
-                            <option value="Ulster">Ulster</option>
-                        </select>
+                        <label for="country" class="form-label">Your country</label>
+                        <input type="text" class="form-control" id="country" country="country" required placeholder="Your Country">
                     </div>
+                    
+                  
                     
                     <div class="mb-3">
                         <br>
@@ -656,17 +649,17 @@ document.addEventListener('click', function (event) {
                             <div style="margin-right: 50px;">
                                 <div>
                                     <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
-                                    <label for="trailer2m">2m Trailer</label>
+                                    <label for="trailer2m">Small Trailer</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
-                                    <label for="trailer3m">3m Trailer</label>
+                                    <label for="trailer3m">Medium Trailer</label>
                                 </div>
                             </div>
                             <div>
                                 <div>
                                     <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
-                                    <label for="trailer4m">4m Trailer</label>
+                                    <label for="trailer4m">Large Trailer</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="other" name="productInterest" value="Other">

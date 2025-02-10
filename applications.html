@@ -255,9 +255,9 @@ margin-top: -50px !important;
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                             <li><img src="assets/trailer1.png" alt=""></li>
                             <li><a class="dropdown-item" href="products.html">Products</a></li>
-                            <li><a class="dropdown-item" href="2m-trailer.html">2m Trailer</a></li>
-                            <li><a class="dropdown-item" href="3m-trailer.html">3m Trailer</a></li>
-                            <li><a class="dropdown-item" href="4m-trailer.html">4m Trailer</a></li>
+                            <li><a class="dropdown-item" href="2m-trailer.html">Small</a></li>
+                            <li><a class="dropdown-item" href="3m-trailer.html">Medium</a></li>
+                            <li><a class="dropdown-item" href="4m-trailer.html">Large</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -627,17 +627,12 @@ setInterval(changeImage, 3000);
                             maxlength="16"
                             required>
                     </div>
-                    
                     <div class="mb-3">
-                        <label for="province" class="form-label">Select a Province</label>
-                        <select class="form-control" id="province" name="province" required>
-                            <option value="" selected disabled>Select a Province</option>
-                            <option value="Leinster">Leinster</option>
-                            <option value="Munster">Munster</option>
-                            <option value="Connacht">Connacht</option>
-                            <option value="Ulster">Ulster</option>
-                        </select>
+                        <label for="country" class="form-label">Your country</label>
+                        <input type="text" class="form-control" id="country" country="country" required placeholder="Your Country">
                     </div>
+                    
+                  
                     
                     <div class="mb-3">
                         <br>
@@ -646,17 +641,17 @@ setInterval(changeImage, 3000);
                             <div style="margin-right: 50px;">
                                 <div>
                                     <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
-                                    <label for="trailer2m">2m Trailer</label>
+                                    <label for="trailer2m">Small Trailer</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
-                                    <label for="trailer3m">3m Trailer</label>
+                                    <label for="trailer3m">Medium Trailer</label>
                                 </div>
                             </div>
                             <div>
                                 <div>
                                     <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
-                                    <label for="trailer4m">4m Trailer</label>
+                                    <label for="trailer4m">Large Trailer</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="other" name="productInterest" value="Other">
