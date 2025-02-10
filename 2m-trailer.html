@@ -605,66 +605,78 @@ document.addEventListener('click', function (event) {
         <section id="contact" class="mt-5" data-aos="fade-up">
             <div class="about" style="background-color: var(--shape-color-01);">
                 <h2>Contact Us</h2>
-               <form name="contact" method="POST" data-netlify="true">
-    <div class="mb-3">
-        <label for="name" class="form-label">Your Name</label>
-        <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
-    </div>
-    
-    <div class="mb-3">
-        <label for="email" class="form-label">Your Email</label>
-        <input type="email" class="form-control" id="email" name="email" required placeholder="Your Email">
-    </div>
-    
-    <div class="mb-3">
-        <label for="phone" class="form-label">Phone Number</label>
-        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" maxlength="16" required>
-    </div>
-    
-    <div class="mb-3">
-        <label for="province" class="form-label">Select a Province</label>
-        <select class="form-control" id="province" name="province" required>
-            <option value="" selected disabled>Select a Province</option>
-            <option value="Leinster">Leinster</option>
-            <option value="Munster">Munster</option>
-            <option value="Connacht">Connacht</option>
-            <option value="Ulster">Ulster</option>
-        </select>
-    </div>
-    
-    <div class="mb-3">
-        <label for="productInterest" class="form-label">Product Interest</label>
-        <div style="display: flex; flex-wrap: wrap;">
-            <div style="margin-right: 50px;">
-                <div>
-                    <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer" checked>
-                    <label for="trailer2m">2m Trailer</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
-                    <label for="trailer3m">3m Trailer</label>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
-                    <label for="trailer4m">4m Trailer</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="other" name="productInterest" value="Other">
-                    <label for="other">Other</label>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="mb-3">
-        <label for="message" class="form-label">Your Message</label>
-        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
-    </div>
-    
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+                <form name="contact" method="POST" data-netlify="true" >
+                    <div class="mb-3">
+                        <label for="name" class="form-label"></label>
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label"></label>
+                        <input type="email" class="form-control" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="phone" class="form-label"></label>
+                        <input 
+                            type="tel" 
+                            class="form-control" 
+                            id="phone" 
+                            name="phone" 
+                            placeholder="Phone Number" 
+                            maxlength="16"
+                            required>
+                    </div>
+                    
+                
+                    <div class="mb-3">
+                        <label for="province" class="form-label"></label>
+                        <select class="form-control" id="province" name="province" required>
+                            <option value="" selected disabled>Select a Province</option>
+                            <option value="Leinster">Leinster</option>
+                            <option value="Munster">Munster</option>
+                            <option value="Connacht">Connacht</option>
+                            <option value="Ulster">Ulster</option>
+                        </select>
+                    </div>
+                
+                    <div class="mb-3">
+                        <br>
+                        <label for="productInterest" class="form-label">Product Interest</label>
+                        <div style="display: flex;">
+                            <div style="margin-right: 50px;">
+                                <div>
+                                    <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
+                                    <label for="trailer2m">2m Trailer</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
+                                    <label for="trailer3m">3m Trailer</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
+                                    <label for="trailer4m">4m Trailer</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="other" name="productInterest" value="Other">
+                                    <label for="other">Other</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="message" class="form-label"></label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                
+                
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
 
                 
                 
