@@ -346,7 +346,7 @@ document.addEventListener('click', function (event) {
         <!-- Contact Section -->
         <section id="contact" class="mt-5" data-aos="fade-up">
             <div class="about" style="background-color: var(--shape-color-01);">
-                <form name="contact" method="POST" data-netlify="true" >
+                <form name="contact" method="POST" data-netlify="true">
                     <div class="mb-3">
                         <label for="name" class="form-label"></label>
                         <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
@@ -356,7 +356,7 @@ document.addEventListener('click', function (event) {
                         <label for="email" class="form-label"></label>
                         <input type="email" class="form-control" id="email" name="email" required placeholder="Your Email">
                     </div>
-                
+                    
                     <div class="mb-3">
                         <label for="phone" class="form-label"></label>
                         <input 
@@ -369,7 +369,6 @@ document.addEventListener('click', function (event) {
                             required>
                     </div>
                     
-                
                     <div class="mb-3">
                         <label for="province" class="form-label"></label>
                         <select class="form-control" id="province" name="province" required>
@@ -380,43 +379,43 @@ document.addEventListener('click', function (event) {
                             <option value="Ulster">Ulster</option>
                         </select>
                     </div>
-                
+                    
                     <div class="mb-3">
                         <br>
                         <label for="productInterest" class="form-label">Product Interest</label>
                         <div style="display: flex;">
                             <div style="margin-right: 50px;">
                                 <div>
-                                    <input type="checkbox" id="trailer2m" name="productInterest" value="2m Trailer">
+                                    <input type="checkbox" id="trailer2m" name="productInterest_2m" value="2m Trailer">
                                     <label for="trailer2m">2m Trailer</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="trailer3m" name="productInterest" value="3m Trailer">
+                                    <input type="checkbox" id="trailer3m" name="productInterest_3m" value="3m Trailer">
                                     <label for="trailer3m">3m Trailer</label>
                                 </div>
                             </div>
                             <div>
                                 <div>
-                                    <input type="checkbox" id="trailer4m" name="productInterest" value="4m Trailer">
+                                    <input type="checkbox" id="trailer4m" name="productInterest_4m" value="4m Trailer">
                                     <label for="trailer4m">4m Trailer</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="other" name="productInterest" value="Other">
+                                    <input type="checkbox" id="other" name="productInterest_other" value="Other">
                                     <label for="other">Other</label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                
+                    
                     <div class="mb-3">
                         <label for="message" class="form-label"></label>
                         <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
                     </div>
                 
-                
-
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                
+                
 
             </div>
         </section>
