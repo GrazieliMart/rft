@@ -1004,6 +1004,33 @@ footer .social{
     transform: scale(1, 1);
   }
 }
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.product-item img {
+width: 40px;
+height: 60px;
+object-fit: contain; /* Agora a imagem não corta */
+border-radius: 5px;
+}
+.quantity {
+  width: 50px;
+  text-align: center;
+  margin-left: auto;
+}
 .dropdown-menu img {
   height: 50px;
   margin-left: 20px;
