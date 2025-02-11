@@ -31,16 +31,12 @@ footer .col-md-4 img{
 
 }
 #flag {
-  margin-left: 20px;
+  margin-left: 80px;
   border-radius: 5px;
-  width: 50px;
+  width: 66px;
   transition: 0.2s;
 }
-#flag:hover{
-  height: 30px;
-  transition: 0.2s;
-  transform: scale(1.1);
-}
+
 footer{
 
     justify-content: center;
