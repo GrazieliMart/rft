@@ -136,8 +136,8 @@ span{
                     </li>
                 </ul>
                 <div class="d-flex align-items-center">
-                    <a href="https://wa.me/353860559935" style="text-decoration: none;"><button class="btn btn-primary square-btn me-2">Rent Now</button></a>
-                    <a href="contact.html" style="text-decoration: none;"><button class="btn btn-secondary square-btn">Contact Us</button></a>
+                    <a href="contact.html" style="text-decoration: none;"><button class="btn btn-primary square-btn me-2">Rent Now</button></a>
+                    <a href="https://wa.me/353860559935" style="text-decoration: none;"><button class="btn btn-secondary square-btn">Contact Us</button></a>
                     <img src="assets/flag.png" alt="" id="flag">
                 </div>
             </div>
@@ -380,40 +380,45 @@ document.addEventListener('click', function (event) {
                 <h2>Contact Us</h2>
                 <form name="eventForm" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="eventForm">
-                    
+                
                     <!-- Nome -->
                     <div class="mb-3">
-                        <label for="name" class="form-label"></label>
+                        <label for="name" class="form-label">Your Name</label>
                         <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
                     </div>
                     <br>
+                    
                     <!-- Email -->
                     <div class="mb-3">
-                        <label for="email" class="form-label"></label>
+                        <label for="email" class="form-label">Your Email</label>
                         <input type="email" class="form-control" id="email" name="email" required placeholder="Your Email">
                     </div>
                     <br>
+                    
                     <!-- Telefone -->
                     <div class="mb-3">
-                        <label for="phone" class="form-label"></label>
+                        <label for="phone" class="form-label">Phone Number</label>
                         <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" maxlength="16" required>
                     </div>
                     <br>
+                    
                     <!-- Tipo de Evento -->
                     <div class="mb-3">
-                        <label for="eventType" class="form-label"></label>
+                        <label for="eventType" class="form-label">What's the occasion?</label>
                         <input type="text" class="form-control" id="eventType" name="eventType" placeholder="What's the occasion" required>
                     </div>
                     <br>
+                    
                     <!-- Código Postal -->
                     <div class="mb-3">
-                        <label for="postCode" class="form-label"></label>
+                        <label for="postCode" class="form-label">Post Code</label>
                         <input type="text" class="form-control" id="postCode" name="postCode" placeholder="Post Code" maxlength="7" title="Enter a valid Irish postcode, e.g., D01 R2T2" required>
                         <div class="invalid-feedback">
                             Please enter a valid Irish postcode, e.g., D01 R2T2.
                         </div>
                     </div>
                     <br>
+                    
                     <!-- Datas de Contratação -->
                     <div class="mb-3">
                         <label for="hireDates" class="form-label">Needed by</label>
@@ -423,8 +428,8 @@ document.addEventListener('click', function (event) {
                             <input type="date" class="form-control" id="endDate" name="endDate" required placeholder="End Date">
                         </div>
                     </div>
-                    
                     <br>
+                    
                     <!-- Província -->
                     <div class="mb-3">
                         <label for="county" class="form-label">Select County</label>
@@ -489,16 +494,18 @@ document.addEventListener('click', function (event) {
                             </div>
                         </div>
                     </div>
-                    
+                
                     <!-- Mensagem -->
                     <div class="mb-3">
-                        <label for="message" class="form-label"></label>
+                        <label for="message" class="form-label">Your Message</label>
                         <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
                     </div>
                 
                     <!-- Botão -->
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                
+                
                 
                 
                 
