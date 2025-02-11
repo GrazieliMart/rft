@@ -30,6 +30,10 @@ footer .col-md-4 img{
  
 
 }
+#flag{
+  margin-left: 10px;
+  width: 30px;
+}
 
 footer{
 
@@ -562,15 +566,15 @@ footer .social{
     border-radius: 5px; 
 }
 
-    .btn-primary.square-btn {
-        width: 140px;
-        height: 40px;
-        border-radius: 0px;
-        border: none;
-        background-color: #1d386d; 
-        color: #fff;
-        font-weight: 900;
-    }
+.btn-primary.square-btn {
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #1d386d;
+  color: #fff;
+  font-weight: 900;
+}
     .align-buttons button{
         width: 150px;
         border: none;
@@ -600,21 +604,25 @@ footer .social{
     }
 
     .btn-secondary.square-btn {
-        width: 100px;
-        border: none;
-        height: 40px;
-        border-radius: 0px;
-        background-color: #2064E7; 
-        color: #fff;
-        font-weight: 900;
-    }
+      width: 110px;
+      border: none;
+      margin-left: 10px;
+      height: 40px;
+      border: 3px solid #345fb500;
+      border-radius: 50px;
+      background-color: #009bdb;
+      color: #fff;
+      font-weight: 900;
+  }
     .btn-secondary.square-btn:hover {
         font-weight: 900;
-        color: #4d98df;
+        background-color: #1d386d;
+        color: #ffffff;
     }
     .btn-primary.square-btn:hover{
         font-weight: 900;
         color: #2e9aff;
+        background-color: #0d1e42;
     }
 .faixa-nav{
     background-color: #1d386d;
@@ -996,10 +1004,9 @@ footer .social{
     transform: scale(1, 1);
   }
 }
-.dropdown-menu img{
-    height: 100px;
-    margin-left: 20px;
-    
+.dropdown-menu img {
+  height: 50px;
+  margin-left: 20px;
 }
 .socials {
   position: fixed;
