@@ -30,10 +30,14 @@ footer .col-md-4 img{
  
 
 }
+#logo{
+  width: 40px;
+  margin-right: 40px;
+}
 #flag {
-  margin-left: 80px;
+  margin-left: 40px;
   border-radius: 5px;
-  width: 66px;
+  width: 56px;
   transition: 0.2s;
 }
 
