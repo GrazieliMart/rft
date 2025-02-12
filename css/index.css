@@ -1302,6 +1302,15 @@ footer .row {
     right: 0px;
     top: 90%;
 }
+#flag{
+  display: none;
+}
+#logo{
+  display: none;
+}
+#navbarNav1{
+  display: none;
+}
 .align-buttons button {
   width: 130px;
   border: none;
